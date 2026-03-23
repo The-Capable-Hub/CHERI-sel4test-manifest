@@ -12,7 +12,7 @@
      note: this manifest is not intended to be used directly, but should be included
      into a manifest that also declares a kernel -->
 
-<remote name="seL4"
+<remote name="CHERI-seL4"
 fetch="."
 />
 
@@ -21,7 +21,7 @@ fetch="."
 <remote fetch="https://github.com/riscv" name="opensbi"/>
 
 <default revision="master"
-remote="seL4"
+remote="CHERI-seL4"
 />
 
 <remote name="upstream-seL4" fetch="https://github.com/seL4"/>
