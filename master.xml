@@ -9,6 +9,6 @@
 <!-- include all the common repositories, we just want to define the kernel -->
 <include name="common.xml"/>
 
-<project name="seL4.git" path="kernel"/>
+<project name="CHERI-seL4.git" path="kernel"/>
 
 </manifest>
